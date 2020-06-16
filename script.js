@@ -29,7 +29,7 @@ const scene =  new ScrollMagic.Scene({
     triggerElement: ".bg",
     triggerHook: 0.02,
     reverse:true,
-    duration: "100%"
+    duration: "300%"
 })
 .setPin(".bg").setTween(animateAbout).addTo(controller);
 
