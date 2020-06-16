@@ -1,0 +1,24 @@
+.bg {
+    background: white;
+    /* width: 100vw; */
+    height: 100vh;
+    position: relative;
+    /* overflow: hidden; */
+}
+.circle-custom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5%;
+}
+.container {
+    min-height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+    .bg {
+        margin: 0 5%;
+    }
+    .circle-custom {
+        width: 10%;
+    }
+}
